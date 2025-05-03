@@ -1,0 +1,6 @@
+[console_scripts]
+adam_control_node = adam.adam_control_node:main
+robot_controller1 = adam.robot_controller1:main
+voice_control1 = adam.voice_control1:main
+voice_turtlesim = adam.voice_turtlesim:main
+

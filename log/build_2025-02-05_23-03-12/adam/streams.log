@@ -1,0 +1,55 @@
+[0.985s] Invoking command in '/home/oluwaniyi/ros2_ws/src/adam': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/oluwaniyi/ros2_ws/src/adam/build/adam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(adam_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/adam build --build-base /home/oluwaniyi/ros2_ws/src/adam/build/adam/build install --record /home/oluwaniyi/ros2_ws/src/adam/build/adam/install.log --single-version-externally-managed install_data
+[1.272s] running egg_info
+[1.272s] creating build/adam/adam.egg-info
+[1.272s] writing build/adam/adam.egg-info/PKG-INFO
+[1.272s] writing dependency_links to build/adam/adam.egg-info/dependency_links.txt
+[1.272s] writing entry points to build/adam/adam.egg-info/entry_points.txt
+[1.273s] writing requirements to build/adam/adam.egg-info/requires.txt
+[1.273s] writing top-level names to build/adam/adam.egg-info/top_level.txt
+[1.284s] writing manifest file 'build/adam/adam.egg-info/SOURCES.txt'
+[1.310s] reading manifest file 'build/adam/adam.egg-info/SOURCES.txt'
+[1.311s] writing manifest file 'build/adam/adam.egg-info/SOURCES.txt'
+[1.311s] running build
+[1.312s] running build_py
+[1.312s] creating /home/oluwaniyi/ros2_ws/src/adam/build/adam/build
+[1.312s] creating /home/oluwaniyi/ros2_ws/src/adam/build/adam/build/lib
+[1.312s] creating /home/oluwaniyi/ros2_ws/src/adam/build/adam/build/lib/adam
+[1.312s] copying adam/__init__.py -> /home/oluwaniyi/ros2_ws/src/adam/build/adam/build/lib/adam
+[1.312s] copying adam/voice_control1.py -> /home/oluwaniyi/ros2_ws/src/adam/build/adam/build/lib/adam
+[1.313s] copying adam/voice_turtlesim.py -> /home/oluwaniyi/ros2_ws/src/adam/build/adam/build/lib/adam
+[1.313s] copying adam/adam_control_node.py -> /home/oluwaniyi/ros2_ws/src/adam/build/adam/build/lib/adam
+[1.313s] copying adam/voice_test.py -> /home/oluwaniyi/ros2_ws/src/adam/build/adam/build/lib/adam
+[1.314s] copying adam/robot_controller1.py -> /home/oluwaniyi/ros2_ws/src/adam/build/adam/build/lib/adam
+[1.314s] copying adam/voice_test1.py -> /home/oluwaniyi/ros2_ws/src/adam/build/adam/build/lib/adam
+[1.315s] running install
+[1.315s] running install_lib
+[1.315s] creating /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages/adam
+[1.315s] copying /home/oluwaniyi/ros2_ws/src/adam/build/adam/build/lib/adam/__init__.py -> /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages/adam
+[1.316s] copying /home/oluwaniyi/ros2_ws/src/adam/build/adam/build/lib/adam/voice_control1.py -> /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages/adam
+[1.316s] copying /home/oluwaniyi/ros2_ws/src/adam/build/adam/build/lib/adam/voice_turtlesim.py -> /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages/adam
+[1.316s] copying /home/oluwaniyi/ros2_ws/src/adam/build/adam/build/lib/adam/adam_control_node.py -> /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages/adam
+[1.317s] copying /home/oluwaniyi/ros2_ws/src/adam/build/adam/build/lib/adam/voice_test.py -> /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages/adam
+[1.317s] copying /home/oluwaniyi/ros2_ws/src/adam/build/adam/build/lib/adam/robot_controller1.py -> /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages/adam
+[1.317s] copying /home/oluwaniyi/ros2_ws/src/adam/build/adam/build/lib/adam/voice_test1.py -> /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages/adam
+[1.317s] byte-compiling /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages/adam/__init__.py to __init__.cpython-310.pyc
+[1.317s] byte-compiling /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages/adam/voice_control1.py to voice_control1.cpython-310.pyc
+[1.317s] byte-compiling /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages/adam/voice_turtlesim.py to voice_turtlesim.cpython-310.pyc
+[1.319s] byte-compiling /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages/adam/adam_control_node.py to adam_control_node.cpython-310.pyc
+[1.320s] byte-compiling /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages/adam/voice_test.py to voice_test.cpython-310.pyc
+[1.320s] byte-compiling /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages/adam/robot_controller1.py to robot_controller1.cpython-310.pyc
+[1.320s] byte-compiling /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages/adam/voice_test1.py to voice_test1.cpython-310.pyc
+[1.321s] running install_data
+[1.321s] creating /home/oluwaniyi/ros2_ws/src/adam/install/adam/share/ament_index
+[1.321s] creating /home/oluwaniyi/ros2_ws/src/adam/install/adam/share/ament_index/resource_index
+[1.321s] creating /home/oluwaniyi/ros2_ws/src/adam/install/adam/share/ament_index/resource_index/packages
+[1.322s] copying resource/adam -> /home/oluwaniyi/ros2_ws/src/adam/install/adam/share/ament_index/resource_index/packages
+[1.322s] copying package.xml -> /home/oluwaniyi/ros2_ws/src/adam/install/adam/share/adam
+[1.322s] running install_egg_info
+[1.322s] Copying build/adam/adam.egg-info to /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages/adam-0.0.0-py3.10.egg-info
+[1.324s] running install_scripts
+[1.343s] Installing adam_control_node script to /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/adam
+[1.343s] Installing robot_controller1 script to /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/adam
+[1.343s] Installing voice_control1 script to /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/adam
+[1.343s] Installing voice_turtlesim script to /home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/adam
+[1.345s] writing list of installed files to '/home/oluwaniyi/ros2_ws/src/adam/build/adam/install.log'
+[1.362s] Invoked command in '/home/oluwaniyi/ros2_ws/src/adam' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/oluwaniyi/ros2_ws/src/adam/build/adam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/oluwaniyi/ros2_ws/src/adam/install/adam/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(adam_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/adam build --build-base /home/oluwaniyi/ros2_ws/src/adam/build/adam/build install --record /home/oluwaniyi/ros2_ws/src/adam/build/adam/install.log --single-version-externally-managed install_data
