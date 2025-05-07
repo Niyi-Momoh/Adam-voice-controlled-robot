@@ -33,6 +33,9 @@ adam/
 │ └── poster.jpg
 └── README.md
 
+## Project Poster
+![POSTER DRAFT](https://github.com/user-attachments/assets/64892a94-5402-4c81-af38-6bb178e75a7d)
+
 
 ## 🚀 Running the Nodes
 ```bash
